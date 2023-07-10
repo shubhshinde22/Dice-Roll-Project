@@ -1,0 +1,10 @@
+import random
+
+def roll_dice():
+  """
+  Rolls a dice and returns the result.
+  """
+  return random.randint(1, 6)
+
+if __name__ == "__main__":
+  print(roll_dice())
